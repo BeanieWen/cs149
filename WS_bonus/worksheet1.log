@@ -1,0 +1,16 @@
+  688  cd WS_bonus
+  689  curl -L -o out.pdf https://tinyurl.com/yy94jltt
+  690  ls -latr
+  691  history > cmds.log
+  692  git add cmds.log *.c
+  693  git commit -m "First commit"
+  694  git add . 
+  695  git status
+  696  git commit -m "First commit"
+  697  git branch
+  698  git push -u origin main
+  699  cd ~
+  700  git clone git://g.csail.mit.edu/xv6-labs-2023
+  701  cd xv6-labs-2023
+  702  make qemu
+  703  ./grade-lab-util sleep
