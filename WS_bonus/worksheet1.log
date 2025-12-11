@@ -1,0 +1,16 @@
+  727  git config --global user.name "Benny Wen"
+  728  mkdir WS_bonus
+  729  cd WS_bonus
+  730  git add .
+  731  curl -L -o out.pdf https://tinyurl.com/yy94jltt
+  732  ls -latr
+  733  history > cmds.log
+  734  git add cmds.log *.c
+  735  git commit -m "First commit"
+  736  git branch
+  737  git push -u origin main
+  738  cd ~
+  739  git clone git://g.csail.mit.edu/xv6-labs-2023
+  740  cd xv6-labs-2023
+  741  make qemu
+  742  ./grade-lab-util sleep
