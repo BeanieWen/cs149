@@ -1,0 +1,16 @@
+  717  cd ~
+  718  reset
+  719  pwd
+  720  cd ~
+  721  cd Desktop/
+  722  ls -latr
+  723  ls -latr ; mkdir cs149 ; cd cs149
+  724  git init
+  725  git remote add origin https://github.com/BeanieWen/cs149.git
+  726  git config --global user.email "bennywen0.0@gmail.com"
+  727  git config --global user.name "Benny Wen"
+  728  mkdir WS_bonus
+  729  cd WS_bonus
+  730  git add .
+  731  curl -L -o out.pdf https://tinyurl.com/yy94jltt
+  732  ls -latr
